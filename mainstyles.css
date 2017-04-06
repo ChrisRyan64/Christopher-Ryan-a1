@@ -151,7 +151,7 @@ h2 {
 	padding-left: 17px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	bottom: -450px;
+	bottom: -415px;
 	border-radius: 15px;
 }
 #Fcontact {
@@ -252,6 +252,21 @@ h2 {
 body {
 	background-color: #A0E8EF;
 }
+source {
+	position: relative;
+	left: auto;
+	right: auto;
+	top: 56px;
+}
+#sr {
+	top: 245px;
+	position: relative;
+	left: auto;
+	right: -40%;
+	font-size: 10px;
+}
+
+
 #indexleft  {
 	float: none;
 	position: absolute;
@@ -300,4 +315,173 @@ h3 {
 	font-size: 25px;
 	margin-left: 100px;
 	margin-right: 100px;
+}
+h4 {
+	font-size: 49px;
+	text-align: center;
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	left: 15%;
+	position: relative;
+	margin-bottom: -6px;
+}
+#moredetails {
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+}
+h5 {
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	font-size: 49px;
+	left: -20%;
+	position: relative;
+	padding-top: 0px;
+	margin-bottom: -6px;
+}
+#aboutSecond {
+	position: relative;
+	top: 110px;
+	left: -5px;
+	margin-right: auto;
+	margin-left: 100px;
+}
+#aboutSlammers {
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+
+
+#imgGame {
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 6px;
+}
+#imgSlam {
+	right: auto;
+	position: static;
+	float: right;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 6px;
+}
+#imgLink {
+	position: absolute;
+	top: 323px;
+	z-index: 1;
+	font-size: 12px;
+}
+#xtraLinks {
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	position: relative;
+	top: 0px;
+	text-align: center;
+	font-size: 38px;
+}
+#aboutThird {
+	position: relative;
+	top: 300px;
+	text-align: left;
+	width: 50%;
+	left: 25%;
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+}
+#table {
+	position: relative;
+	text-align: center;
+	left: 29%;
+	font-size: 23px;
+	border: 6px double #1E28E2;
+	background-color: #FBF4DB;
+}
+	
+	table th {
+		border: 1px solid #1E28E2;
+		border-collapse: collapse;
+	}
+#thankyou {
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 99px;
+	text-align: center;
+}
+#home {
+	position: absolute;
+	right: 42%;
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 45px;
+	top: 50%;
+}
+#fieldOne {
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	text-align: center;
+	left: 0px;
+	margin-bottom: 37px;
+	margin-top: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-style: solid;
+	border-color: #000000;
+}
+#firstname {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+#lastname {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+#phonenumber {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+#emailaddress {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+#competitionday {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+#competitiontime {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#submit {
+	left: 55%;
+	position: relative;
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+
+}
+#cancel {
+	position: relative;
+	left: 33%;
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
 }

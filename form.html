@@ -11,6 +11,69 @@
 
 <body>
 
+	<form action="#">
+	<fieldset id="fieldOne">
+	 <legend>Contact Information</legend>
+	 	<div>
+	 		<label for="firstname">First Name</label>
+	 		<input type="text" name="First Name" id="firstname" placeholder="First Name Here">
+	 	</div>
+	 	
+	 	<div>
+	 		<label for="lastname">Last Name</label>
+	 		<input type="text" name="Last Name" id="lastname" placeholder="Last Name Here">
+	 	</div>
+	 	
+	 	<div>
+	 		<label for="phonenumber">Phone Number</label>
+	 		<input type="tel" name="Phone Number" id="phonenumber" placeholder="Phone Number Here">
+	 	</div>
+	 	
+	 	<div>
+	 		<label for="emailaddress">Email Address</label>
+	 		<input type="email" name="Email Address" id="emailaddress" placeholder="Email Address Here">
+	 	</div>
+	 	
+		</fieldset>
+		
+	<fieldset id="fieldOne">	 
+	 <legend>Game Availability</legend>
+	 
+	 	<div>
+	 		<label for="competitionday">Competition Day</label>
+	 		<select name="Competition Day" id="competitionday" required>
+	 			<option value="">--Choose--</option>
+	 			<option value="">Monday</option>
+	 			<option value="">Tuesday</option>
+	 			<option value="">Wednesday</option>
+	 			<option value="">Thursday</option>
+	 			<option value="">Friday</option>
+	 			<option value="">Saturday</option>
+			</select>
+	 		
+	 	</div>
+	 
+	 	<div>
+	 		<label for="competitiontime">Competition Time</label>
+	 		<select name="Competition Time" id="competitiontime" required>
+	 			<option value="">--Choose--</option>
+	 			<option value="">Afternoon</option>
+	 			<option value="">Evening</option>
+			</select>
+	 	</div>
+	 	
+	 	<div>
+	 		<label>Have you read and agree to our <a href="guidelines.html">Play Guidelines</a>?</label>
+	 			<label>
+	 				<input type="checkbox" name="Read Guidelines" value="1">Yes</label>
+	 	</div>
+		</fieldset>
+		
+		<button type="submit" id="submit"><a href="thankyou.html">Submit</a></button>
+		<button type="submit" id="cancel"><a href="index.html">Cancel</a></button>
+	 
+	</form>
+
 <footer id="Fcontact">
 	<p ><span id="phone">Phone: 47712233| Address: 123 Pokemund Street, Cairsville<br><br>
 		Fax: 4771 2244| Email: slammers@gmail.com</span>
