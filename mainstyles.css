@@ -5,6 +5,15 @@ header {
 	padding-bottom: 73px;
 	padding-top: 5px;
 	padding-right: 10px;
+	border-radius: 45px;
+}
+#indexheader {
+	background-color: #F6E3A3;
+	padding-left: 10px;
+	padding-bottom: 73px;
+	padding-top: 5px;
+	padding-right: 10px;
+	border-radius: 45px 45px 0px 0px;
 }
 #index {
 }
@@ -15,6 +24,7 @@ h1 {
 	font-weight: 400;
 	text-decoration: none;
 }
+
 #links {
 	text-decoration: none;
 	font-size: 113px;
@@ -28,13 +38,12 @@ h1 {
 	font-family: buenard;
 	font-style: normal;
 	font-weight: 400;
-	border-style: groove;
-	border-width: 18px;
+	border: 18px groove #F6E3A3;
 	font-size: 42px;
 	text-align: center;
 	width: 480px;
 	position: relative;
-	left: 35%;
+	left: 36%;
 	top: 140px;
 	color: #000000;
 	padding-top: 34px;
@@ -44,10 +53,22 @@ h1 {
 	background-color: #FBF4DB;
 	text-decoration: none;
 }
+#form {
+	text-decoration: none;
+	color: #000000;
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	width: 0px;
+	padding-left: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 #currentL {
 	background-color: #FBF4DB;
-	border-style: groove;
-	border-width: 18px;
+	border: 18px groove #F6E3A3;
 	width: 480px;
 	color: #000000;
 	font-family: buenard;
@@ -55,7 +76,7 @@ h1 {
 	font-weight: 400;
 	font-size: 42px;
 	position: relative;
-	left: 35%;
+	left: 36%;
 	top: 240px;
 	padding-top: 34px;
 	padding-bottom: 34px;
@@ -68,9 +89,8 @@ h1 {
 	font-weight: 400;
 	width: 460px;
 	position: relative;
-	left: 35%;
-	border-width: 18px;
-	border-style: groove;
+	left: 36%;
+	border: 18px groove #F6E3A3;
 	top: 340px;
 	background-color: #FBF4DB;
 	padding-top: 0px;
@@ -82,21 +102,83 @@ h2 {
 	font-family: buenard;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 28px;
+	font-size: 42px;
 	margin-top: -1px;
 	margin-bottom: -1px;
 }
-#contact {
+#Gcontact {
 	position: relative;
 	left: auto;
 	text-align: left;
-	width: 98%;
+	width: 99%;
+	background-color: #F8EBBD;
+	padding-left: 17px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	bottom: -700px;
+	border-radius: 15px;
+}
+#Rcontact {
+	position: relative;
+	left: auto;
+	text-align: left;
+	width: 99%;
+	background-color: #F8EBBD;
+	padding-left: 17px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	bottom: -100px;
+	border-radius: 15px;
+}
+#Lcontact {
+	position: relative;
+	left: auto;
+	text-align: left;
+	width: 99%;
+	background-color: #F8EBBD;
+	padding-left: 17px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	bottom: -100px;
+	border-radius: 15px;
+}
+#Icontact {
+	position: relative;
+	left: auto;
+	text-align: left;
+	width: 99%;
 	background-color: #F8EBBD;
 	padding-left: 17px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	bottom: -450px;
+	border-radius: 15px;
 }
+#Fcontact {
+	position: relative;
+	left: auto;
+	text-align: left;
+	width: 99%;
+	background-color: #F8EBBD;
+	padding-left: 17px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	bottom: -450px;
+	border-radius: 15px;
+}
+#Mcontact {
+	position: relative;
+	left: auto;
+	text-align: left;
+	width: 99%;
+	background-color: #F8EBBD;
+	padding-left: 17px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	bottom: -450px;
+	border-radius: 15px;
+}
+
 #phone {
 	position: relative;
 	left: 31%;
@@ -169,4 +251,53 @@ h2 {
 
 body {
 	background-color: #A0E8EF;
+}
+#indexleft  {
+	float: none;
+	position: absolute;
+	top: 323px;
+	height: 115%;
+	left: auto;
+	width: 26%;
+}
+#indexright {
+	width: 26%;
+	height: 115%;
+	position: absolute;
+	top: 323px;
+	right: 0.5%;
+	float: none;
+}
+h3 {
+	font-size: 75px;
+	text-align: center;
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+}
+#guidelinesContainer {
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	position: static;
+}
+#guidelinesContent {
+	width: 80%;
+	left: 11%;
+	position: absolute;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: -6px;
+}
+#volleyballrules {
+	font-family: buenard;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
