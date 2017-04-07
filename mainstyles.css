@@ -252,6 +252,13 @@ h2 {
 body {
 	background-color: #A0E8EF;
 }
+#ref {
+	position: relative;
+	left: 765px;
+	font-size: 11px;
+	top: 246px;
+}
+
 source {
 	position: relative;
 	left: auto;
@@ -344,6 +351,7 @@ h5 {
 	position: relative;
 	padding-top: 0px;
 	margin-bottom: -6px;
+	width: 93%;
 }
 #aboutSecond {
 	position: relative;
@@ -484,4 +492,6 @@ h5 {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
+}
+#problem {
 }
